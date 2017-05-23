@@ -1,0 +1,12 @@
+# Merge
+
+create a newBranch
+go back to master branch
+reset master branch
+git pull to master branch
+go to newBranch
+rebase on master
+go to master
+rebase newBranch
+git push
+delete newBranch
