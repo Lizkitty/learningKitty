@@ -1,12 +1,12 @@
 # Merge
 
-create a newBranch: git branch test
-go back to master branch: git checkout master
-reset master branch: git reset --hard HEAD^
-git pull to master branch: git pull
-go to newBranch: git checkout test
-rebase on master: git rebase -i master
-go to master: git checkout master
-rebase newBranch: git rebase -i test
-git push: git push
-delete newBranch: git branch -D test
+1. create a newBranch: git branch test
+2. go back to master branch: git checkout master
+3. reset master branch: git reset --hard HEAD^
+4. git pull to master branch: git pull
+5. go to newBranch: git checkout test
+6. rebase on master: git rebase -i master
+7. go to master: git checkout master
+8. rebase newBranch: git rebase -i test
+9. git push: git push
+10. delete newBranch: git branch -D test
