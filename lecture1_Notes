@@ -3,10 +3,10 @@
 create a newBranch: git branch test
 go back to master branch: git checkout master
 reset master branch: git reset --hard HEAD^
-git pull to master branch
-go to newBranch
-rebase on master
-go to master
-rebase newBranch
-git push
-delete newBranch
+git pull to master branch: git pull
+go to newBranch: git checkout test
+rebase on master: git rebase -i master
+go to master: git checkout master
+rebase newBranch: git rebase -i test
+git push: git push
+delete newBranch: git branch -D test
