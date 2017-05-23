@@ -1,8 +1,8 @@
 # Merge
 
-create a newBranch
-go back to master branch
-reset master branch
+create a newBranch: git branch test
+go back to master branch: git checkout master
+reset master branch: git reset --hard HEAD^
 git pull to master branch
 go to newBranch
 rebase on master
